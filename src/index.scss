@@ -28,7 +28,7 @@ body {
 .container{
     margin: 8vh 6vw;
     position: relative;
-    border: 2px solid black;
+    // border: 2px solid black;
     top: 0;
     left: 0;
     width: 100%;
@@ -63,7 +63,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    // border: 2px solid red;
 
     @include respond(tab-port){
         position: static;
@@ -88,7 +88,7 @@ body {
     margin: auto 0;
     width: 100%;
     grid-area: main;
-    background-color: orange;
+    // background-color: orange;
     @include respond(tab-port){
         height: 100vh;
     }
@@ -98,5 +98,5 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    background-color: red;
+    // background-color: red;
 }

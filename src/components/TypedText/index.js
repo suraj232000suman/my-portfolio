@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.scss";
 class TypedText extends React.Component {
   state = {
     text: "",

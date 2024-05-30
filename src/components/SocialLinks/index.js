@@ -1,6 +1,7 @@
+import "./index.scss";
 const SocialLinks = () => {
   return (
-    <div>
+    <div className="social">
       <SocialLinks.Link url={"https://github.com/aakash2408"} type={"github"} />
       <SocialLinks.Link
         url={"https://github.com/aakash2408"}
